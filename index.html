@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="catchcopy">キャッチコピー</h1>
+  </header>
+  <div class="about">
+    <h2 class="section-title">About</h2>
+    <p class="about-text">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+      プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+  <div class="blog">
+    <h2 class="section-title">ブログ</h2>
+    <div class="blog-contents">
+      <div class="blog-contents-item">
+        <img src="./img/blog__eyecatch1.jpg" alt="blog1">
+        <h3 class="blog-contents-item-ttl">
+          コーチテックブログのタイトルがここには入ります。
+        </h3>
+      </div>
+      <div class="blog-contents-item">
+        <img src="./img/blog__eyecatch2.jpg" alt="blog2">
+        <h3 class="blog-contents-item-ttl">
+          コーチテックブログのタイトルがここには入ります。
+        </h3>
+      </div>
+      <div class="blog-contents-item">
+        <img src="./img/blog__eyecatch3.jpg" alt="blog3">
+        <h3 class="blog-contents-item-ttl">
+          コーチテックブログのタイトルがここには入ります。
+        </h3>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <h2 class="section-title">問い合わせ</h2>
+    <form action="" style="margin: auto;">
+      <div class="contact-item">
+        <label for="name"><strong>名前</strong></label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="contact-item">
+        <label for="email"><strong>メールアドレス</strong></label>
+        <input type="mail" id="email" name="email">
+      </div>
+      <div class="contact-item">
+        <label for="business"><strong>用件</strong></label>
+        <select name="business">
+          <option value="advertising">広告掲載について</option>
+        </select>
+      </div>
+      <div class="contact-item">
+        <label for="message"><strong>内容</strong></label>
+        <textarea id="message" name="message" rows="10"></textarea>
+      </div>
+      <button type="reset" name="clear">削除</button>
+      <input type="submit">
+    </form>
+    <style>
+      .contact-item>label {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        width: 7em;
+      }
+    </style>
+  </div>
+</body>
+
+</html>
